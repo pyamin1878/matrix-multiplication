@@ -2,7 +2,7 @@
 
 
 
-## Explicit with nested loops
+## explicit with nested loops
 ```#input two matrices and label them
 
 matrix_1 = [[1,2,3],
