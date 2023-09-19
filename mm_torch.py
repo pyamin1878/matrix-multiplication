@@ -11,9 +11,7 @@ matrix_2 = torch.tensor([[0,1,2],
                         [6,7,8]])
 
 # Calculate the dot product of matrix_1 and matrix_2 using .matmul()
-
 product = torch.matmul(matrix_1, matrix_2)
 
 # Print resulting matrix
-
 print(product)
