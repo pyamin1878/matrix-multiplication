@@ -3,7 +3,8 @@
 
 
 ## explicit with nested loops
-```#input two matrices and label them
+```python
+#input two matrices and label them
 
 matrix_1 = [[1,2,3],
             [4,5,6],
@@ -27,7 +28,8 @@ for i in range(len(matrix_1)):
 print(res)
 ```
 ## `numpy`
-```# input two matrices
+```python
+# input two matrices
 
 import numpy as np
 
