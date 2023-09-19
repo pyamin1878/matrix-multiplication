@@ -2,7 +2,7 @@
 
 ### _2D_ matrix multiplication using `python3`
 
-
+![Image of Matrix Multiplication](Basic_MMM.png)
 
 
 
