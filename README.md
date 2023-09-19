@@ -1,6 +1,7 @@
 # ***matrix-multiplication***
+![Basic_MMM](https://github.com/pyamin1878/matrix-multiplication/assets/11963396/efac9a8d-70e0-4646-8bbf-c7edf4c9823b)
 
-! [] (https://www.google.com/url?sa=i&url=https%3A%2F%2Fsiboehm.com%2Farticles%2F22%2FFast-MMM-on-CPU&psig=AOvVaw1HDH45nFbpXThQh6ro-ytQ&ust=1695196719309000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCPCl9YOatoEDFQAAAAAdAAAAABAE)
+
 
 ## explicit with nested loops
 ```python
