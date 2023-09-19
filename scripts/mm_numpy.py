@@ -1,13 +1,9 @@
 import numpy as np
 
-# Input two matrices as NumPy arrays
-matrix_1 = np.array([[1,2,3],  
-                    [4,5,6],
-                    [7,8,9]])
+# Create matrices using np.arange and np.reshape which are two 3x3 matrices
+matrix_1 = np.arange(1,10).reshape(3,3)
 
-matrix_2 = np.array([[0,1,2],
-                    [3,4,5],
-                    [6,7,8]])
+matrix_2 = np.arange(0,9).reshape(3,3)
 
 # Calculate the dot product of matrix_1 and matrix_2 using NumPy's dot function
 res = np.dot(matrix_1,matrix_2)
