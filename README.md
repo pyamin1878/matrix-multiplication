@@ -44,8 +44,6 @@ matrix_2 = np.array([[0,1,2],
                     [3,4,5],
                     [6,7,8]])
 
-result = np.dot(matrix_1, matrix_2)
-
 # Return dot product
 res = np.dot(matrix_1,matrix_2)
 
