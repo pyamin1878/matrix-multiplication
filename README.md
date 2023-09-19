@@ -8,7 +8,7 @@
 
 ## explicit with nested loops
 ```python
-#input two matrices and label them
+#Input two matrices and label them
 
 matrix_1 = [[1,2,3],
             [4,5,6],
@@ -17,23 +17,25 @@ matrix_2 = [[0,1,2],
             [3,4,5],
             [6,7,8]]
 
+# Create an empty result matrix to store the multiplication result
 res = [[0 for x in range (3)] for y in range(3)]
 
-# nested for loops
+# Use nested for loops to iterate through rows and columns of the matrices
 for i in range(len(matrix_1)):
     for j in range(len(matrix_2[0])):
         for k in range(len(matrix_2)):
 
-            # resulted matrix
+            # Calculate the element at row 'i' and column 'j' of the result matrix
             res[i][j] += matrix_1[i][k] * matrix_2[k][j]
 
+#Print the resulting matrix
 print(res)
 ```
 ## `numpy`
 ```python
 import numpy as np
 
-# input two matrices
+# Input two matrices
 matrix_1 = np.array([[1,2,3],  
                     [4,5,6],
                     [7,8,9]])
@@ -44,19 +46,17 @@ matrix_2 = np.array([[0,1,2],
 
 result = np.dot(matrix_1, matrix_2)
 
-print(result)
-
-# return dot product
+# Return dot product
 res = np.dot(matrix_1,matrix_2)
 
-# print resulting matrix
+# Print resulting matrix
 print(res)
 ```
 ## `torch`
 ```python
 import torch
 
-#input two matrices
+#Input two matrices
 
 matrix_1 = torch.tensor([[1,2,3],
                         [4,5,6],
@@ -66,9 +66,9 @@ matrix_2 = torch.tensor([[0,1,2],
                         [3,4,5],
                         [6,7,8]])
 
-# dot product with .matmul()
+# Calculate dot product with .matmul()
 product = torch.matmul(matrix_1, matrix_2)
 
-# print resulting matrix
+# Print resulting matrix
 print(product)
 ```
