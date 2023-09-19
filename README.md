@@ -1,8 +1,8 @@
 # ***matrix-multiplication***
 
-## This is multiple implementations of multiplying matrices in python3
 
-### Explicit with nested loops
+
+## Explicit with nested loops
 ```#input two matrices and label them
 
 matrix_1 = [[1,2,3],
@@ -26,7 +26,7 @@ for i in range(len(matrix_1)):
 
 print(res)
 ```
-### Numpy
+## `numpy`
 ```# input two matrices
 
 import numpy as np
