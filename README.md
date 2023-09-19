@@ -8,7 +8,7 @@
 
 ## explicit with nested loops
 ```python
-#Input two matrices and label them
+# Input two matrices and label them
 
 matrix_1 = [[1,2,3],
             [4,5,6],
@@ -28,14 +28,14 @@ for i in range(len(matrix_1)):
             # Calculate the element at row 'i' and column 'j' of the result matrix
             res[i][j] += matrix_1[i][k] * matrix_2[k][j]
 
-#Print the resulting matrix
+# Print the resulting matrix
 print(res)
 ```
 ## `numpy`
 ```python
 import numpy as np
 
-#Input two matrices as NumPy arrays
+# Input two matrices as NumPy arrays
 matrix_1 = np.array([[1,2,3],  
                     [4,5,6],
                     [7,8,9]])
@@ -54,7 +54,7 @@ print(res)
 ```python
 import torch
 
-## Define two matrices as PyTorch tensors
+# Define two matrices as PyTorch tensors
 
 matrix_1 = torch.tensor([[1,2,3],
                         [4,5,6],
