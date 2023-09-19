@@ -25,9 +25,9 @@ for i in range(len(matrix_1)):
             res[i][j] += matrix_1[i][k] * matrix_2[k][j]
 
 print(res)
-
+```
 ### Numpy
-# input two matrices
+```# input two matrices
 
 import numpy as np
 
@@ -50,3 +50,4 @@ res = np.dot(matrix_1,matrix_2)
 # print resulting matrix
 
 print(res)
+```
