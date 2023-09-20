@@ -1,6 +1,6 @@
 # ***matrix-multiplication***
 
-### _2D_ matrix multiplication using `python3`
+### _2D/3D_ matrix multiplication using `python3`
 
 In linear algebra and machine learning, matrix multiplication is a fundamental concept. 
 There is many ways to add and multiply matrices mathematically and programmatically. 
