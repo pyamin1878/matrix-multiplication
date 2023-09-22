@@ -70,3 +70,10 @@ product = torch.matmul(matrix_1, matrix_2)
 # Print resulting matrix
 print(product)
 ```
+## Tasks to complete
+
+- [ ] Wrap code in functions 
+- [ ] Allow user input 
+- [ ] Random matrix generation 
+- [ ] Add docstrings
+- [ ] Enable unit tests
