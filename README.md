@@ -72,8 +72,10 @@ print(product)
 ```
 ## Tasks to complete
 
+- [ ] Include matrix operations such as `"+"`,  `transpose()`,  `linalg.inv()`
 - [ ] Wrap code in functions 
 - [ ] Allow user input 
 - [ ] Random matrix generation 
 - [ ] Add docstrings
 - [ ] Enable unit tests
+- [ ] Create visualizations with `matplot`
