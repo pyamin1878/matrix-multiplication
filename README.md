@@ -127,5 +127,4 @@ print(product)
 - [x] Enable unit tests
 - [ ] Update `PyTorch` implementation
 - [ ] Create visualizations with `matplot`
-- [ ] List methods and implementations inside of Jupyter Notebook
 - [ ] `JAX` implementation as it supports `numpy` on GPU
