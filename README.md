@@ -70,7 +70,7 @@ product = torch.matmul(matrix_1, matrix_2)
 # Print resulting matrix
 print(product)
 ```
-## Tasks to complete
+## Roadmap & Tasks
 
 - [ ] Include matrix operations such as `"+"`,  `transpose()`,  `linalg.inv()`
 - [ ] Use `JAX` as it supports `numpy` on GPU
