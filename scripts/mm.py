@@ -32,6 +32,6 @@ matrix_2 = [
     [6, 7, 8]
 ]
 
-result = matrix_multiply_nested_loops(matrix_1, matrix_2)
-print("Resulting matrix:", result)
+res = matrix_multiply_nested_loops(matrix_1, matrix_2)
+print("Resulting matrix:", res)
 
