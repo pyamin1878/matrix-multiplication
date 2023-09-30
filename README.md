@@ -73,6 +73,7 @@ print(product)
 ## Tasks to complete
 
 - [ ] Include matrix operations such as `"+"`,  `transpose()`,  `linalg.inv()`
+- [ ] Use `JAX` as it supports `numpy` on GPU
 - [ ] Wrap code in functions 
 - [ ] Allow user input 
 - [ ] Random matrix generation 
