@@ -120,10 +120,12 @@ print(product)
 ## Roadmap & Tasks
 
 - [ ] Include matrix operations such as `"+"`,  `transpose()`,  `linalg.inv()`
-- [ ] Use `JAX` as it supports `numpy` on GPU
-- [ ] Wrap code in functions 
-- [ ] Allow user input 
-- [ ] Random matrix generation 
-- [ ] Add docstrings
-- [ ] Enable unit tests
+- [x] Wrap code in functions 
+- [x] Allow user input 
+- [x] Random matrix generation 
+- [x] Add docstrings
+- [x] Enable unit tests
+- [ ] Update `PyTorch` implementation
 - [ ] Create visualizations with `matplot`
+- [ ] List methods and implementations inside of Jupyter Notebook
+- [ ] `JAX` implementation as it supports `numpy` on GPU
