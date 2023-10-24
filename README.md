@@ -124,7 +124,7 @@ print(product)
 - [x] Allow user input 
 - [x] Random matrix generation 
 - [x] Add docstrings
-- [x] Enable unit tests
+- [ ] Enable unit tests
 - [ ] Update `PyTorch` implementation
 - [ ] Create visualizations with `matplot`
 - [ ] `JAX` implementation as it supports `numpy` on GPU
